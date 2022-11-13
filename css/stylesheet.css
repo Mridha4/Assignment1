@@ -1,0 +1,46 @@
+body {
+    background-color: #F9F3EC; 
+    color: #37646C;
+    font-family: Oswald;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: right;
+    flex-direction: column;
+}
+
+.b1 {
+    background-color: #629393;
+    color: #F9F3EC;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+
+
+
+}
+
+.b2 {
+    background-color: #413F50;
+    color: #F9F3EC;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+
+}
