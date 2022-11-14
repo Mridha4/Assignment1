@@ -3,7 +3,7 @@ body {
     grid-template-columns: 1fr 4fr;
     background-color: #F6EBE0; 
     color: #5394A0;
-    font-family: Roboto Mono;
+    font-family: Roboto Mono;   
 }
 
 main h1 {
@@ -31,6 +31,8 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
+    margin-right: 69em;
+    margin-bottom: 2em;
 }
 
 .b2 {
@@ -41,6 +43,7 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
+    margin-bottom: 2em;
 }
 
 .b3 {
