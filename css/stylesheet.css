@@ -106,3 +106,9 @@ div {
     justify-content: end;
     gap: 10px;
 }
+
+footer {
+    text-align: center;
+    grid-column: 2/3;
+   
+}
