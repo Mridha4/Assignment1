@@ -31,7 +31,7 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
-    margin-right: 69em;
+    margin-right: 68em;
     margin-bottom: 2em;
 }
 
@@ -44,6 +44,7 @@ nav ul {
     text-align: center;
     border: none;
     margin-bottom: 2em;
+    margin-right: 1em;
 }
 
 .b3 {
@@ -54,6 +55,8 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
+    margin-right: 1em;
+    margin-top: 2em;
 }
 
 .b4 {
@@ -64,6 +67,8 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
+    margin-right: 1em;
+    margin-top: 2em;
 }
 
 div {
