@@ -1,11 +1,14 @@
 body {
-    background-color: #F9F3EC; 
-    color: #37646C;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #F6EBE0; 
+    color: #5394A0;
     font-family: Oswald;
 }
 
-header h1 {
+main h1 {
     text-align: center;
+    font-size: 35px;
 }
 
 nav {
@@ -15,42 +18,83 @@ nav {
 }
 
 nav ul {
-    display: inline-flex;
     list-style-type: none;
-    text-align: right;
-    flex-direction: column;
+    display: inline-flex;
+    font-size: 17px;
 }
 
 .b1 {
-    background-color: #629393;
-    color: #F9F3EC;
+    background-color: #5394A0;
+    color: #F6EBE0;
     border-radius: 12px;
     padding: 15px;
     cursor: pointer;
     text-align: center;
     border: none;
-
-
-
-
 }
 
 .b2 {
     background-color: #413F50;
-    color: #F9F3EC;
+    color: #F6EBE0;
     border-radius: 12px;
     padding: 15px;
     cursor: pointer;
     text-align: center;
     border: none;
+}
 
+.b3 {
+    background-color: #5394A0;
+    color: #F6EBE0;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.b4 {
+    background-color: salmon;
+    color: #F6EBE0;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
 }
 
 div {
     display: inline-flex;
     flex-direction: row;
-    margin-left: 76em;
+}
 
+aside {
+    background-color: #FAF5EF;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    margin-bottom: 0;
+    overflow: auto;
+    max-height: fit-content;
+    height: 100vh;
+}
+
+aside h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+aside ul {
+    font-size: 20px;
 }
 
 
+
+textarea {
+    resize: none;
+    border-color: blue;
+    background-color: #FAF5EF;
+}
+
+main {
+    grid-column: 2/3;
+}
