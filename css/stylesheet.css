@@ -92,7 +92,8 @@ aside ul {
 
 textarea {
     resize: none;
-    border-color: blue;
+    border-color: #40AEDD;
+    border-width: 3px;
     background-color: #FAF5EF;
 }
 
@@ -111,4 +112,9 @@ footer {
     text-align: center;
     grid-column: 2/3;
    
+}
+
+::placeholder {
+    color: grey;
+
 }
