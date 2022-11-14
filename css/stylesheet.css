@@ -28,6 +28,8 @@ nav ul {
     padding: 15px;
     cursor: pointer;
     text-align: center;
+    border: none;
+
 
 
 
@@ -40,7 +42,15 @@ nav ul {
     padding: 15px;
     cursor: pointer;
     text-align: center;
-    display: flex;
-    justify-content: right;
+    border: none;
 
 }
+
+div {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 76em;
+
+}
+
+
