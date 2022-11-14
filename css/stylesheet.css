@@ -13,8 +13,7 @@ main h1 {
 
 nav {
     text-align: right;
-    padding-right: 10px;
-    padding-bottom: 0px;
+    margin-right: 1em;
 }
 
 nav ul {
@@ -33,10 +32,11 @@ nav ul {
     border: none;
     margin-right: 68em;
     margin-bottom: 2em;
+    margin-top: 1em;
 }
 
 .b2 {
-    background-color: #413F50;
+    background-color: #7A52A3;
     color: #F6EBE0;
     border-radius: 12px;
     padding: 15px;
@@ -45,6 +45,7 @@ nav ul {
     border: none;
     margin-bottom: 2em;
     margin-right: 1em;
+    margin-top: 1em;
 }
 
 .b3 {
@@ -60,7 +61,7 @@ nav ul {
 }
 
 .b4 {
-    background-color: salmon;
+    background-color: #C6808A;
     color: #F6EBE0;
     border-radius: 12px;
     padding: 15px;
@@ -94,6 +95,7 @@ aside h1 {
 
 aside ul {
     font-size: 20px;
+    list-style-type: square;
 }
 
 
