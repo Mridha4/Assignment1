@@ -95,6 +95,9 @@ textarea {
     border-color: #40AEDD;
     border-width: 3px;
     background-color: #FAF5EF;
+    padding-top: 14px;
+    padding-left: 15px;
+    font-size: 16px;
 }
 
 main {
@@ -116,5 +119,6 @@ footer {
 
 ::placeholder {
     color: grey;
+    font-size: 16px;
 
 }
