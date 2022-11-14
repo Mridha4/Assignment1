@@ -3,7 +3,7 @@ body {
     grid-template-columns: 1fr 4fr;
     background-color: #F6EBE0; 
     color: #5394A0;
-    font-family: Oswald;
+    font-family: Roboto Mono;
 }
 
 main h1 {
