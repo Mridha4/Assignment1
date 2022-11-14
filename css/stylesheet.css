@@ -73,6 +73,7 @@ aside {
     padding-left: 5mm;
     padding-right: 5mm;
     margin-bottom: 0;
+    margin-top: 0;
     overflow: auto;
     max-height: fit-content;
     height: 100vh;
@@ -97,4 +98,11 @@ textarea {
 
 main {
     grid-column: 2/3;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
 }
