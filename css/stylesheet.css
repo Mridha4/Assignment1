@@ -30,8 +30,6 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
-
-
 }
 
 .b2 {
@@ -42,8 +40,6 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
-
-  
 }
 
 .b3 {
@@ -146,5 +142,4 @@ footer {
         display: flex;
         justify-content:end
     }
-
 }
