@@ -1,9 +1,11 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
     background-color: #F6EBE0; 
     color: #5394A0;
-    font-family: Roboto Mono;   
+    font-family: Roboto Mono; 
+    height: 1px;  
 }
 
 main h1 {
@@ -12,8 +14,7 @@ main h1 {
 }
 
 nav {
-    text-align: right;
-    margin-right: 1em;
+    text-align: center;
 }
 
 nav ul {
@@ -26,13 +27,11 @@ nav ul {
     background-color: #5394A0;
     color: #F6EBE0;
     border-radius: 12px;
-    padding: 15px;
     cursor: pointer;
     text-align: center;
     border: none;
-    margin-right: 68em;
-    margin-bottom: 2em;
-    margin-top: 1em;
+
+
 }
 
 .b2 {
@@ -43,9 +42,8 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
-    margin-bottom: 2em;
-    margin-right: 1em;
-    margin-top: 1em;
+
+  
 }
 
 .b3 {
@@ -57,7 +55,6 @@ nav ul {
     text-align: center;
     border: none;
     margin-right: 1em;
-    margin-top: 2em;
 }
 
 .b4 {
@@ -68,24 +65,14 @@ nav ul {
     cursor: pointer;
     text-align: center;
     border: none;
-    margin-right: 1em;
-    margin-top: 2em;
 }
 
-div {
-    display: inline-flex;
-    flex-direction: row;
-}
 
 aside {
     background-color: #FAF5EF;
-    padding-left: 5mm;
-    padding-right: 5mm;
-    margin-bottom: 0;
-    margin-top: 0;
-    overflow: auto;
-    max-height: fit-content;
-    height: 100vh;
+    height: 170px;
+    grid-row: 2/3;
+    grid-column: 1/3;
 }
 
 aside h1 {
@@ -98,37 +85,54 @@ aside ul {
     list-style-type: square;
 }
 
-
-
 textarea {
     resize: none;
     border-color: #40AEDD;
     border-width: 3px;
     background-color: #FAF5EF;
-    padding-top: 14px;
+    padding-top: 12px;
     padding-left: 15px;
     font-size: 16px;
+    width: 96%;
+    height: 130px;
 }
 
 main {
-    grid-column: 2/3;
+    grid-column: 1/3;
 }
 
-div {
+.b-top {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.b-bottom {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 5px;
 }
 
 footer {
     text-align: center;
-    grid-column: 2/3;
-   
+    grid-column: 1/3;
 }
 
 ::placeholder {
     color: grey;
     font-size: 16px;
+}
 
+
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr;
+    }
+
+    aside {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin-top: 0%;
+    }
 }
