@@ -28,7 +28,7 @@ function hide()
 {
     for (element of array_textarea){
         if (!element.hasAttribute("hidden")){
-        element.toggleAttribute('hidden');
+        element.toggleAttribute("hidden");
         }
     }
 }
@@ -38,9 +38,16 @@ function show()
 {
     for (element of array_textarea){
         if (element.hasAttribute("hidden")){
-            element.toggleAttribute('hidden');
+            element.toggleAttribute("hidden");
         }
     }
 }
 cancelButton.addEventListener("click", hide);
 newNoteButton.addEventListener("click", show);
+
+// Clear textarea contents
+function eraseText()
+{
+    textarea.value = "";
+}
+newNoteButton.addEventListener("click", eraseText);
