@@ -53,11 +53,17 @@ function eraseText()
 newNoteButton.addEventListener("click", eraseText);
 
 //notesArray
-notesArray = [{title:"note one", body:"this is my first note"}, {title:"note two", body:"this is my second note"}] 
+notesArray = [];
+//{title:"note one", body:"this is my first note"}
 
 // Function gives a prompt to the user
 function createNote()
 {
-    prompt("What would you like to name this note?");
+    let text = prompt("What would you like to name this note?");
+    if (text != null) {
+        notesArray.push({title: text, body: textarea.value});
+    }
+    console.log(notesArray)
 }
 saveButton.addEventListener("click", createNote);
+
