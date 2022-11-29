@@ -54,7 +54,7 @@ nav ul {
 }
 
 .CancelButton {
-    background-color: #79353F;
+    background-color:#DA2C38;
     color: #F4ECDC;
     border-radius: 12px;
     padding: 15px;
@@ -136,10 +136,20 @@ footer {
     border-color: #C1EEFF;
 }
 
-.darkButton {
-    color:
+.DarkNewNoteSaveButton {
+    background-color: #9F7E69;
+    color: white;
 }
 
+.LightThemeButton {
+    background-color: #F7FFE0;
+    color: #513B3C;
+}
+
+.DarkCancelButton {
+    background-color: #79353F;
+    color: white;
+}
 
 
 

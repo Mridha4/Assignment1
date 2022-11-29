@@ -4,13 +4,23 @@ const body = document.querySelector("body")
 const darkThemeButton = document.querySelector(".DarkThemeButton")
 const aside = document.querySelector("aside")
 const textarea = document.querySelector("textarea")
-
+const newNoteButton = document.querySelector(".NewNoteButton")
+const saveButton = document.querySelector(".SaveButton")
+const cancelButton = document.querySelector(".CancelButton")
 function darkTheme()
 {
     body.classList.toggle("darkBody")
     aside.classList.toggle("darkAside")
     textarea.classList.toggle("darkTextarea")
+    newNoteButton.classList.toggle("DarkNewNoteSaveButton")
+    darkThemeButton.classList.toggle("LightThemeButton")
+    saveButton.classList.toggle("DarkNewNoteSaveButton")
+    cancelButton.classList.toggle("DarkCancelButton")
 
+    if (darkThemeButton.textContent === "Dark Theme"){
+        darkThemeButton.textContent = "Light Theme"}
+    else{
+        darkThemeButton.textContent = "Dark Theme"}
 }
 darkThemeButton.addEventListener("click", darkTheme)
 
