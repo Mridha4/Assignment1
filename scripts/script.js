@@ -51,3 +51,13 @@ function eraseText()
     textarea.value = "";
 }
 newNoteButton.addEventListener("click", eraseText);
+
+//notesArray
+notesArray = [{title:"note one", body:"this is my first note"}, {title:"note two", body:"this is my second note"}] 
+
+// Function gives a prompt to the user
+function createNote()
+{
+    prompt("What would you like to name this note?");
+}
+saveButton.addEventListener("click", createNote);
