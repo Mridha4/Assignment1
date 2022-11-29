@@ -55,7 +55,6 @@ newNoteButton.addEventListener("click", eraseText);
 //notesArray
 notesArray = [];
 //{title:"note one", body:"this is my first note"}
-
 // Function gives a prompt to the user
 function createNote()
 {
@@ -63,7 +62,10 @@ function createNote()
     if (text != null) {
         notesArray.push({title: text, body: textarea.value});
     }
-    console.log(notesArray)
+    let list = document.createElement("li");
+    let notes = document.querySelector(".notes");
+    list.appendChild(document.createTextNode(text));
+    notes.appendChild(list);
 }
 saveButton.addEventListener("click", createNote);
 
