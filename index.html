@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 
+    <script src="scripts/script.js" defer></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +15,9 @@
 </head>
 <body>
     <main>
-        <h1>Take Better Notes</h1>
+        <header>
+            <h1>Take Better Notes</h1>
+        </header>
         <nav>
             <ul>
                 <li>About</li>
@@ -23,18 +27,18 @@
             </ul>
         </nav>
         <div class="b-top">
-            <button class="b1">New Note</button>
-            <button class="b2">Dark Theme</button>
+            <button class="NewNoteButton">New Note</button>
+            <button class="DarkThemeButton">Dark Theme</button>
         </div>
         <textarea placeholder="This is a placeholder"></textarea>
         <div class="b-bottom">
-            <button class="b3">Save</button>
-            <button class="b4">Cancel</button>
+            <button class="SaveButton">Save</button>
+            <button class="CancelButton">Cancel</button>
         </div>
     </main>
     <aside>
         <h2>My Notes</h2>
-        <ul>
+        <ul class="notes">
             <li>note one</li>
             <li>note two</li>
         </ul>
